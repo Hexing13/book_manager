@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+body{background:#E4EBF0;}
+#ibody{
+	background:#FAFAFA;
+	width:640px;
+	height:753px;
+	margin:50px auto;
+	position:relative;
+	}
+#onload{
+	width:500px;
+	height:300px;
+	position:absolute;
+	top:220px;
+	left:100px;
+}
+#onload h2{
+	width:610px;
+	height:30px;
+	font-size:18px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	color:#333;
+	border-bottom:2px solid #349EF2;
+	margin:-180px 0 0 -100px;
+	padding-left:30px;
+	}
+#onload p{
+	width:500px;
+	height:35px;
+	margin-top:40px;
+	}
+#onload p span{
+	width:80px;
+	display:inline-block;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	color:#333;
+	text-align:center;
+	}	
+#onload p input{
+	width:320px;
+	height:35px;
+	line-height:35px;
+	border:2px double #787878;
+	border-radius:5px;
+	margin-left:20px;
+	}
+#button{width:100%;height:90px;}

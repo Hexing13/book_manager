@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body{overflow-x:hidden;}
+#banner{
+    background:url(../images/banner4.jpg) no-repeat center top;
+    width:1370px;
+    height:205px;
+    position:relative;
+}
+#data1{
+    width:180px;
+    height:20px;
+    margin-left:1150px;
+
+}
+#banner p{color:#fff;}
+#data1 a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight:normal;
+}
+#ul1
+{
+    width:1373px;
+    height:40px;
+    list-style:none;
+    margin:140px 0 0 10px;
+}
+#ul1 li span:hover{
+    color:rosybrown;
+}
+#ul1 li a:link,#ul1 li a:visited,#ul1 li a:hover,#ul1 li a:active{
+    width: 120px;
+    height: 40px;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "宋体";
+    font-weight:bolder;
+    color: #fff;
+    background:#E94D38;
+    border-radius:10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#calender{
+    margin-top:40px;
+    margin-left:10px;
+    z-index: 1000;
+    position: absolute;
+}
+#calender table{
+    background: #F7F7F7;
+    border-color: #F1F1F1;
+}
+#new{
+    color:red;
+    width:80px;
+    margin-top:10px;
+    margin-left:1210px;
+}
+#new_book table{
+    width:810px;
+    height:330px;
+    margin-left:400px;
+    margin-top:10px;
+    border-collapse: collapse;
+}
+#new_book table tr{
+    border:2px solid #ccc;
+    width:810px;
+    height:165px;
+    border-radius:5px;
+}
+#new_book table tr td{
+    width:120px;
+    height:165px;
+    padding:2px 5px 0 5px;
+    border:none;
+}
